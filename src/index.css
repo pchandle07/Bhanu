@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background: url("../src/requires/back.jpg");
+}
+body,
+html {
+  font-family: "Merriweather", serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.btn {
+  background-color: rgb(59, 54, 54);
+  border-radius: 20%;
+  margin-top: 10px;
+  color: white;
+  text-shadow: 2px 2px 1px red;
+}

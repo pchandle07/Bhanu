@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+table {
+  width: 50vw;
+  padding-top: 35px;
+  margin: auto;
+  margin-bottom: 30px;
+  border-collapse: collapse;
+}
+.tr {
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: "Permanent Marker";
+  text-shadow: 2px 2px 1px red;
+}
+td {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border: 1px solid #0f1016;
+  font-family: "Permanent Marker", cursive;
+}
+tr:nth-child(even) {
+  color: rgb(112, 112, 112);
+}
+
+tr:nth-child(odd) {
+  color: rgb(231, 224, 224);
+}
